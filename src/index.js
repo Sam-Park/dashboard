@@ -11,7 +11,7 @@ import './index.css';
 import App from './App'
 import { registerLicense } from '@syncfusion/ej2-base';
 
-registerLicense(`ORg4AjUWIQA/Gnt2VVhhQlFaclhJXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxRdkNiWn5YcnVQRGdYVkw=`);
+registerLicense(process.env.REACT_APP_SYNC_LICENSE);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
